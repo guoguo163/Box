@@ -223,7 +223,7 @@ public class LivePlayActivity extends BaseActivity {
         // Getting EPG Address
         epgStringAddress = Hawk.get(HawkConfig.EPG_URL, "");
         if (StringUtils.isBlank(epgStringAddress)) {
-            epgStringAddress = "https://epg.112114.xyz/";
+            epgStringAddress = "https://h1.nananfu.com:23462/diyp/epg.php";
 //            Hawk.put(HawkConfig.EPG_URL, epgStringAddress);
         }
         // http://epg.aishangtv.top/live_proxy_epg_bc.php
